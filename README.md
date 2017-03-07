@@ -17,6 +17,7 @@ autoplay play the slideshow on create default(false)
 
 touchControll W.I.P default(false)
 
+
 Functions:
 
 create: create the slideshow
