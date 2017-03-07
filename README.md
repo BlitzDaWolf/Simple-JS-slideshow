@@ -1,2 +1,3 @@
-# Simple-JS-slideshow
+# Simple JS slideshow
 A simple JS slideshow
+
