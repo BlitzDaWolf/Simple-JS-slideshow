@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    float: left;
+    height: 256px;
+}
+
+#con {
+    width: 960px;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+#con2 {
+    width: 960px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}

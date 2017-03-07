@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js-lib/slideshow.js"></script>
+    <script>
+        //        var show1 = new SlideShow("hello there",1);
+
+        var photos = [
+            "https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png",
+            "http://hammerjs.github.io/assets/img/github-icon.png",
+            "https://dwa5x7aod66zk.cloudfront.net/assets/pack/logo-github-fe55a081ff239877f791f5882f9c3cddc371653c88d9b06f504ea10f453996ed.jpg"
+            ];
+        var current = 0;
+    </script>
+</head>
+
+<body>
+    <div id="con">
+        <div id="slide">
+
+        </div>
+    </div>
+    <div id="con2">
+        <div id="slide1">
+
+        </div>
+    </div>
+
+    <script>
+        var slideContainer1 = document.querySelector("#slide1");
+        var slideshow = new SlideShow(slideContainer1, photos, .5, 0, "slide", true, false);
+        slideshow.create();
+    </script>
+</body>
+
+</html>
